@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #d5eeed;
+    color: #264745
+}
+
+/*Estilos del header*/
+header {
+    width: 100%;
+    height: auto;
+    padding: 10px 50px;
+    background: #066666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+header h1 {
+    font-size: 40px;
+    color: #fdf8eb;
+}
+
+header ul {
+    display: flex;
+    gap: 50px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fdf8eb;
+}
+
+.definicion h2{
+    font-size: 35px; 
+ }
+
+ .definicion{
+    background: #acf1ef;
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    font-size: 25px; 
+ }
+
+.pasos h2{
+   font-size: 35px; 
+}
+
+.pasos{
+    background: #c0f7f5;
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    font-size: 25px;
+}
+
+.metaEtiquetas h2{
+   font-size: 35px; 
+}
+
+.metaEtiquetas h3{
+    font-size: 30px; 
+ }
+
+ .metaEtiquetas{
+    background: #d1fffd;
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    font-size: 25px;
+}
+
+.metaSeo{
+    background: #ebfdfd;
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    font-size: 25px;
+}
+
+.metaSeo h2{
+   font-size: 35px; 
+}
+
+
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212322;
+    color: #fdf8eb;
+}
